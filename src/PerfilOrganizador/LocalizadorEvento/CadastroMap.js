@@ -1,3 +1,4 @@
+// cadastra os eventos e os direciona para o mapa.
 var map = L.map('map').setView([0, 0], 2);
         var events = [];
 
@@ -52,3 +53,5 @@ var map = L.map('map').setView([0, 0], 2);
                 document.body.removeChild(nameElement);
             }, 5000);
         }
+
+// falta database...
