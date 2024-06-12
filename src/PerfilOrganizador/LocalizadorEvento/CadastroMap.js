@@ -1,4 +1,4 @@
-// cadastra os eventos e os direciona para o mapa.
+// API cadastra os eventos e os direciona para o mapa.
 var map = L.map('map').setView([0, 0], 2);
         var events = [];
 
